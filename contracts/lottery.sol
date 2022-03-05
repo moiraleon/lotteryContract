@@ -28,6 +28,11 @@ contract Lottery {
         require(msg.sender == manager);
         _;
     }
+
+    function getPlayers() public view returns(address[]) {
+        return players
+    }
+
 }
 
 //manager = msg.sender; //ensures that when we create this contract we get the senders address assigned to it
