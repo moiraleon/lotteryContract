@@ -1,15 +1,15 @@
-//UNSUPORTED
+// //UNSUPORTED
 
-pragma solidity ^0.4.17;
+// pragma solidity ^0.4.17;
 
-contract Test {
-    string[] public myArray;
+// contract Test {
+//     string[] public myArray;
 
-    function Test() public {
-        myArray.push("hi");
-    }
+//     function Test() public {
+//         myArray.push("hi");
+//     }
 
-    function getArray() public view returns (string[]) {
-        return myArray;
-    }
-}
+//     function getArray() public view returns (string[]) {
+//         return myArray;
+//     }
+// }

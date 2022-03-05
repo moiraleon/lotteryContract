@@ -1,24 +1,24 @@
-pragme solidity ^0.4.17;
+// pragme solidity ^0.4.17;
 
-contract Test{
-    uint[] public myArray;
+// contract Test{
+//     uint[] public myArray;
 
-    function Test() public{
-        myArray.push(1);
-        myArray.push(10);
-        myArrray.push(30);
-    }
+//     function Test() public{
+//         myArray.push(1);
+//         myArray.push(10);
+//         myArrray.push(30);
+//     }
 
-    function getMyArray() public view returns(uint[]) {
-        return myArray;
+//     function getMyArray() public view returns(uint[]) {
+//         return myArray;
         
-    }
+//     }
 
-    function getArrayLength() public view returns (uint){
-        return myArray.length;
-    }
+//     function getArrayLength() public view returns (uint){
+//         return myArray.length;
+//     }
 
-    function getFirstElement() public view returns (uint){
-        return myArray[]0;
-    }
-}
+//     function getFirstElement() public view returns (uint){
+//         return myArray[]0;
+//     }
+// }
